@@ -1,5 +1,13 @@
+from src.helpers.insertionFunc import abrierJSON
+
+
+
 def EmpanadasDonaPepa():
-    """Menu Principal"""
+    """
+    Menu Principal de programa.
+    No recibe argumentos.
+    No tiene retorno.
+    """
     program = True
     while program:
         print("""
@@ -17,7 +25,7 @@ Elija una Opción:
         entrada = int(input("> "))
 
         if (entrada == 1):
-            print('hoola')
+            print(abrierJSON())
 
         elif (entrada == 2):
             pass
@@ -47,5 +55,5 @@ Elija una Opción:
             print("Opción no valida, por favor seleccione otra.")
 
 
-if __name__=="__main__":
-    EmpanadasDonaPepa()
+#if __name__=="__main__":
+ #   EmpanadasDonaPepa()
