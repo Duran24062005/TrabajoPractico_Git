@@ -1,1 +1,14 @@
-null
+[
+    {
+        "tipo": "Pollo",
+        "precio": 4000
+    },
+    {
+        "tipo": "res",
+        "precio": 5000
+    },
+    {
+        "tipo": "res",
+        "precio": 5000
+    }
+]

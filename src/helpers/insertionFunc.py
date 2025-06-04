@@ -18,8 +18,8 @@ def guardarDatos(info):
     Recibe como parametros los datos a insertar
     Retorna True si la oparción se ralizó con exito o False si no se realizó con exito.
     """
-    with open('./src/db/products.json', 'w') as opneFile:
-        json.dump(info, opneFile)
+    with open('./src/db/products.json', 'w') as openFile:
+        json.dump(info, openFile, indent=4, ensure_ascii=False)
     return True
 
 
@@ -30,12 +30,11 @@ def guardarUnDato():
         "tipo": "res",
         "precio": 5000
     }
-
-    dato = datos.append(nuevo_dato)
-    dataSaved = guardarDatos(dato)
+    datos.append(nuevo_dato)
+    dataSaved = guardarDatos(datos)
     if (dataSaved):
         print('Envío exitoso.')
     else:
         print('No fue posible')
 
-print(guardarUnDato())
+guardarUnDato()
