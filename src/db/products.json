@@ -1,10 +1,16 @@
 [
     {
         "tipo": "Pollo",
-        "precio": 4000
+        "nombre": "La belleza",
+        "precio": 4000,
+        "ingredientes": "",
+        "disponibilidad": "si"
     },
     {
-        "tipo": "res",
-        "precio": 5000
+        "tipo": "Res",
+        "nombre": "El bololo",
+        "precio": 4000,
+        "ingredientes": "",
+        "disponibilidad": "si"
     }
 ]

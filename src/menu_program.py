@@ -27,6 +27,6 @@ def filter_by_name():
     productos = filter_name(nombre)
     
     if (all is not None):
-        print(tabulate(all, headers='keys', tablefmt='rounded_grid'))
+        print(tabulate(productos, headers='keys', tablefmt='rounded_grid'))
     else: 
         print('¡¡No hay productos registrados!!')

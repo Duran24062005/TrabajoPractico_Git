@@ -13,9 +13,9 @@ def show_all_products():
 def filter_name(name):
     productos = abrierJSON()
     all = []
-    for producto in renge(len(productos)):
-        if (producto['nombre'] ==name):
-            all.append(producto)
+    for pr in range(len(productos)):
+        if (productos[pr]['nombre'].lower() == name.lower()):
+            all.append(productos[pr])
     if (all is not None):
         return all
     else: 
