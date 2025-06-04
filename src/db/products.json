@@ -1,10 +1,9 @@
 [
     {
         "tipo": "Pollo",
-        "precio": 4000
-    },
-    {
-        "tipo": "res",
-        "precio": 5000
+        "nombre": "La belleza",
+        "precio": 4000,
+        "ingredientes": "",
+        "disponibilidad": "si"
     }
 ]

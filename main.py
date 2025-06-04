@@ -11,16 +11,16 @@ def EmpanadasDonaPepa():
     program = True
     while program:
         print("""
-===========================
-    Empanadas Doña Pepa
-===========================
+===================================
+        Empanadas Doña Pepa
+===================================
 Elija una Opción:
     1. Crear Producto
     2. Ver Producto
     3. Actualizar Producto
     4. Eliinar Producto
     5. Salir
-===========================
+===================================
 """)
         entrada = int(input("> "))
 
