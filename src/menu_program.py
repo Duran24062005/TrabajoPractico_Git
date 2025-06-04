@@ -12,7 +12,7 @@ def create_product():
 ===================================
 """)
     tipo = input('Diga el tipo: ')
-    nombre = input('Diga el nombre')
+    nombre = input('Diga el nombre: ')
     precio = int(input('Diga el precio: '))
     ingredientes = input('Diga los ongredientes(arena de maiz, carne de lomo, etc.):')
     disponibilidad = input('Está disponible? (si/no)')

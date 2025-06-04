@@ -16,7 +16,7 @@ def create_new_product(typo, name, price, ingredients, dispo):
     datos.append(nuevo_pro)
     saved = guardarDatos(datos)
     if (saved):
-        print(f"La empanada {name} creo correctamente como nuevo producto.")
+        print(f"¡¡La empanada {name} creo correctamente como nuevo producto!!")
     else:
         print('La operación no fue posible')
 

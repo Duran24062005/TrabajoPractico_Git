@@ -1,4 +1,5 @@
 from src.helpers.insertionFunc import abrierJSON
+from src.menu_program import *
 
 
 
@@ -25,7 +26,7 @@ Elija una Opción:
         entrada = int(input("> "))
 
         if (entrada == 1):
-            print(abrierJSON())
+            create_product()
 
         elif (entrada == 2):
             pass
@@ -55,5 +56,5 @@ Elija una Opción:
             print("Opción no valida, por favor seleccione otra.")
 
 
-#if __name__=="__main__":
- #   EmpanadasDonaPepa()
+if __name__=="__main__":
+    EmpanadasDonaPepa()

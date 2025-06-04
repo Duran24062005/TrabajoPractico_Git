@@ -5,5 +5,12 @@
         "precio": 4000,
         "ingredientes": "",
         "disponibilidad": "si"
+    },
+    {
+        "tipo": "Empanada de carne",
+        "nombre": "La cachera",
+        "precio": 5000,
+        "ingredientes": "arina de arroz, carde de cola y picante",
+        "disponibilidad": "si"
     }
 ]
