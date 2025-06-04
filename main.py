@@ -1,5 +1,5 @@
 from src.helpers.insertionFunc import abrierJSON
-
+from src.menu_program import *
 
 
 def EmpanadasDonaPepa():
@@ -16,10 +16,11 @@ def EmpanadasDonaPepa():
 ===========================
 Elija una Opción:
     1. Crear Producto
-    2. Ver Producto
-    3. Actualizar Producto
-    4. Eliinar Producto
-    5. Salir
+    2. Ver todos los Productos
+    3. Filtrar por nombre
+    4. Actualizar Producto
+    5. Eliinar Producto
+    6. Salir
 ===========================
 """)
         entrada = int(input("> "))
@@ -28,15 +29,18 @@ Elija una Opción:
             print(abrierJSON())
 
         elif (entrada == 2):
-            pass
+            show_products()
 
         elif (entrada == 3):
-            pass
+            filter_by_name()
 
         elif (entrada == 4):
             pass
 
         elif (entrada == 5):
+            pass
+
+        elif (entrada == 6):
             print("""
 ¿Estas seguro? 
     Presiona 'S' si quieres salir o 'N' si no.
@@ -55,5 +59,5 @@ Elija una Opción:
             print("Opción no valida, por favor seleccione otra.")
 
 
-#if __name__=="__main__":
- #   EmpanadasDonaPepa()
+if __name__=="__main__":
+    EmpanadasDonaPepa()
