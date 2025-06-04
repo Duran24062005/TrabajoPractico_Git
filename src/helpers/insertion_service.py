@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 from .insertionFunc import *
+from ..helpers.insertionFunc import *
 
 
 def create_new_product(typo, name, price, ingredients, dispo):
@@ -21,15 +21,6 @@ def create_new_product(typo, name, price, ingredients, dispo):
     else:
         print('La operación no fue posible')
 
-def show_product(id):
-    pass
-
-=======
-from ..helpers.insertionFunc import *
-
-def create_new_product():
-    pass
-
 def show_all_products():
     datas = abrierJSON()
     if (datas):
@@ -48,7 +39,6 @@ def filter_name(name):
     else: 
         return False
 
->>>>>>> showProduct
 def update_product(id, data):
     pass
 
