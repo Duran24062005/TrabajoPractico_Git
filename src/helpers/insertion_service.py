@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from .insertionFunc import *
 
 
@@ -23,6 +24,31 @@ def create_new_product(typo, name, price, ingredients, dispo):
 def show_product(id):
     pass
 
+=======
+from ..helpers.insertionFunc import *
+
+def create_new_product():
+    pass
+
+def show_all_products():
+    datas = abrierJSON()
+    if (datas):
+        return datas
+    else:
+        return False
+
+def filter_name(name):
+    productos = abrierJSON()
+    all = []
+    for pr in range(len(productos)):
+        if (productos[pr]['nombre'].lower() == name.lower()):
+            all.append(productos[pr])
+    if (all is not None):
+        return all
+    else: 
+        return False
+
+>>>>>>> showProduct
 def update_product(id, data):
     pass
 
